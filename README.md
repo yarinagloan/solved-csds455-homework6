@@ -1,0 +1,11 @@
+Download Link: https://assignmentchef.com/product/solved-csds455-homework6
+<br>
+Next week we will be looking at distances in a graph. For this homework, you will need to look up distance parameters for graphs, and to read about Kruskal’s and Prim’s algorithms for minimum weight spanning trees and Dijkstra’s algorithm for finding a single source shortest paths tree.
+
+<strong>Problem 1</strong>: Prove that rad(<em>G</em>) ≤ diam(<em>G</em>) ≤ 2 rad(<em>G</em>) for every graph <em>G </em>where rad(<em>G</em>) is the <em>radius </em>of graph <em>G </em>and diam(<em>G</em>) is the <em>diameter </em>of <em>G</em>.
+
+<strong>Problem 2</strong>: Let <em>G </em>be a graph in which each edge <em>e </em>has a weight <em>w</em>(<em>e</em>) where <em>w </em>: <em>E</em>(<em>G</em>) →Z. Let <em>T </em>be a <em>minimum weight spanning tree </em>of <em>G</em>. Let <em>P </em>be the spanning tree produced by running Prim’s Algorithm on <em>G</em>. Prove that we can convert the optimal tree <em>T </em>into tree <em>P </em>by a sequence of edge replacements such that after each replacement, the graph resulting from the edge replacement is a tree with total weight no larger than <em>T</em>’s weight.
+
+<strong>Problem 3</strong>: Let <em>G </em>be a directed graph in which each edge <em>e </em>has a weight <em>w</em>(<em>e</em>) as above. Prove that if some edge has a negative weight then Dijkstra’s Algorithm may fail to produce a single source shortest spanning tree.
+
+<strong>Problem 4</strong>: Let <em>G </em>be a graph (directed or undirected) in which each edge <em>e </em>has a weight <em>w</em>(<em>e</em>) as above and let <em>s </em>be a vertex of <em>G</em>. Prove that there exists a spanning tree of <em>T </em>such that for each vertex <em>v </em>of <em>G</em>, <em>d<sub>T</sub></em>(<em>s,v</em>) = <em>d<sub>G</sub></em>(<em>s,v</em>). That is, the distance from <em>s </em>to <em>v </em>in <em>T </em>is equal to the shortest distance from <em>s </em>to <em>v </em>in <em>G</em>. Prove that this holds even if some edge weights are negative (but there is no negative weight cycle and no <em>undirected </em>edge with negative weight).
